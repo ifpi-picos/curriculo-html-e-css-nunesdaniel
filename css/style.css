@@ -1,0 +1,181 @@
+
+body {
+    font-family: Times, Mono, sans-serif;
+    color: #424343;
+    margin: 0;
+}
+
+header {
+    border-radius: 0 0 15px 15px;
+    background-color: #2B9AEC;
+    display: inline-block;
+    margin: 0 5% 3% 5%;
+    height: 100px;
+    width: 90%;
+    color: #fff;
+}
+
+header img {
+    border-radius: 0 0 0 15px;
+    margin-right: 2%;
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+header p {
+    font: 20px Times;
+    float: right;
+    margin: 2%;
+}
+
+main {
+    margin: 0 1% 2% 5%;
+    float: left;
+    width: 60%;
+}
+
+section {
+    border-radius: 15px;
+    padding: 0 0 1% 0;   
+}
+
+section h3 {
+    background-color: #2B9AEC;
+    border-radius: 0 15px 15px 0;
+    padding-left: 1%;
+    margin: 2% 0;
+    color: #fff;
+    width: 99%;
+}
+
+section p,
+section dl {
+    padding: 0 0 0 1%;  
+    margin: 0;
+} 
+
+.habilidades dl {
+    display: inline-block;
+    clear: left;
+}
+
+.habilidades dl dt {
+    clear: left;
+    display: inline;
+    float: left;
+    margin: 10px 10px 10px 0;
+}
+
+.habilidades dl dd {
+    background: #3f433f;
+    color: #ffffff;
+    float: left;
+    border-radius: 5px;
+    margin: 6px 3px;
+    padding: 4px;
+}
+
+.habilidades dl dd:hover {
+    background-color: #2B9AEC;
+}
+
+section p a:link,
+section p a:visited,
+section p a:active {
+    text-decoration: none;
+    color: #2B9AEC;
+}
+
+section p a:hover {
+    text-decoration: none;
+    color: #2ea8e7;
+    font-weight: bold;
+}
+
+aside {
+    background-color: #fcfcfc;
+    margin: 1.2% 5% 2% 1%;
+    border-radius: 15px;
+    float: right;
+    width: 27%;
+}
+
+aside h3 {
+    background-color: #2B9AEC;
+    border-radius: 0 15px 15px 0;
+    text-align: center;
+    margin: 0 0 3% 0;
+    color: #fff;
+    width: 100%;
+}
+
+aside img {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    margin: 3%;
+}
+
+aside section {
+    padding-left: 1%;
+}
+
+footer {
+    background-color: #2B9AEC;
+    border-radius: 15px;
+    margin: 5% 5% 0 5%;
+    text-align: center;
+    height: 60px;
+    color: #fff;
+    float: left;
+    width: 90%;
+}
+
+footer h4 {
+    transform: translateY(-60%);
+}
+
+.redes-sociais img {
+    transform: translateY(-150%);
+    margin: 0 6px;
+    width: 25px;
+    height: 25px;
+}
+
+@media screen and (max-width: 845px) {
+
+    header p {
+        font: italic 17px Times;
+        transform: translateY(40%);
+    }
+
+    main {
+        width: 90%;
+        font-size: 13px;
+    }
+
+    section h3 {
+        padding-left: 3%;
+        width: 97%;
+    }
+
+    .habilidades dl dt {
+        margin: 10px 3px 0 0;
+    }
+
+    .habilidades dl dd {
+        margin: 6px 1px;
+    }
+
+    aside {
+        margin: 2% 5% 2% 5%;
+        font-size: 13px;
+        float: left;
+        width: 90%;
+    }
+
+    aside img {
+        margin: 2%;
+    }
+}
